@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    outline-style: solid;
+    outline-color: lightgray;
+    outline-width: 0.5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.video-photo {
+    width: 22.5rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.text {
+    margin: 0.5rem;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    height: 8rem;
+}
